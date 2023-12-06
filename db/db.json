@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "abc@abc.com",
+      "name": "Hong Seungwoo",
+      "tier": "BEGINNER",
+      "playgroundId": 1,
+      "isActive": true,
+      "tel": "010-9020-7775",
+      "start_year": 2023,
+      "teamId": 1
+    },
+    {
+      "id": 2,
+      "email": "abc2@abc.com",
+      "name": "Lee Junghun",
+      "tier": "BEGINNER",
+      "playgroundId": 1,
+      "isActive": true,
+      "tel": "010-7777-8888",
+      "start_year": 2022,
+      "teamId": 1
+    },
+    {
+      "id": 3,
+      "email": null,
+      "name": "kim",
+      "tier": null,
+      "playgroundId": null,
+      "isActive": null,
+      "tel": null,
+      "start_year": null,
+      "teamId": null
+    },
+    {
+      "id": 4,
+      "email": null,
+      "name": "seokhyunmoon",
+      "tier": null,
+      "playgroundId": null,
+      "isActive": null,
+      "tel": null,
+      "start_year": null,
+      "teamId": null
+    }
+  ],
+  "playgrounds": [
+    {
+      "id": 1,
+      "name": "연세대 제1경기장"
+    }
+  ],
+  "teams": {
+    "id": 1,
+    "name": "블루블루팀"
+  },
+  "bankaccount": [
+    {
+      "id": 1,
+      "first_name": "seokhyun",
+      "last_name": "moon",
+      "bank_company": "woori",
+      "val_date": "2025-12",
+      "created_at": "2023-12-06 08:03:00"
+    },
+    {
+      "id": 2,
+      "first_name": "aiden",
+      "last_name": "moon",
+      "bank_company": "shinhan",
+      "val_date": "2030-4",
+      "created_at": "2023-12-06 08:03:00"
+    },
+    {
+      "id": 3,
+      "first_name": null,
+      "last_name": "choi",
+      "bank_company": null,
+      "val_date": null,
+      "created_at": null
+    }
+  ]
+}
